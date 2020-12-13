@@ -31,7 +31,6 @@ const Form = ({ currentID, setCurrentID, setStatus }) => {
         e.preventDefault();
         if (postData.title) {
             if (currentID) {
-                console.log(currentID);
                 dispatch(updatePost(currentID, postData));
             } else {
                 dispatch(createPost(postData));

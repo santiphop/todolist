@@ -5,8 +5,7 @@ import Todo from "./Todo";
 
 const TodoList = ({ currentID, setCurrentID, status }) => {
     const posts = useSelector((state) => state.posts);
-    console.log(posts);
-    
+
     return (
         <div className="todo-container">
             <ul className="todo-list">

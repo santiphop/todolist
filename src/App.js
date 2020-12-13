@@ -20,8 +20,6 @@ function App() {
     const [currentID, setCurrentID] = useState(null);
     const [status, setStatus] = useState("all");
 
-console.log('appjs')
-
     useEffect(() => {
         // setStatus from <select> in <Form> component
         // 3 status is > all, completed, uncompleted
